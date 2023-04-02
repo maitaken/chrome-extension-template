@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "target": "ES5",
+      "module": "ES2015",
+      "jsx": "react-jsx",
+      "strict": false
+    }
+  }

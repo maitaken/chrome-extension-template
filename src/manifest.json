@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "chrome extension template(TS + React)",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup/index.html"
+    },
+    "permissions": [
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.amazon.co.jp/*"],
+        "js": ["./contents/main.js"]
+      }
+    ],
+    "host_permissions": ["https://www.amazon.co.jp/*"]
+  }
